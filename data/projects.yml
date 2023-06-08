@@ -1,4 +1,5 @@
 - name: Verifi Social
+  id: 1
   description: Check uploaded photos for risk of removal from Instagram. Users can see photo stats, blur the photo, and break down a photo into a grid to find exactly what causes removal risks.
   image1: projects/verifi-my-collection.png
   image2: projects/verifi-details-graph.png
@@ -7,6 +8,7 @@
   url: https://verifi-social.herokuapp.com/
 
 - name: Luxifi
+  id: 2
   description: Market place for renting designer brand items. Users can add items to be listed and request items they would like to rent.
   image1: projects/luxifi-new-in-page.png
   image2: projects/luxifi-my-closet-page.png
