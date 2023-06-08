@@ -7,27 +7,27 @@
           <% data.projects.each do |project| %>
             <div class="card-product">
               <%# carousel begins here %>
-              <div id="carouselExampleControls<%= project.id.to_s %>" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
+              <div id="carouselExampleDark<%= project.id.to_s %>" class="carousel carousel-dark slide" data-ride="carousel">
+                <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <%= image_tag project.image1, alt: "project image", class: "img-fluid", data_featherlight: "image" %>
+                    <%= image_tag project.image1, alt: "project image"%>
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag project.image2, alt: "project image", class: "img-fluid" %>
+                    <%= image_tag project.image2, alt: "project image"%>
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag project.image3, alt: "project image", class: "img-fluid" %>
+                    <%= image_tag project.image3, alt: "project image"%>
                   </div>
                   <div class="carousel-item">
-                    <%= image_tag project.image4, alt: "project image", class: "img-fluid" %>
+                    <%= image_tag project.image4, alt: "project image"%>
                   </div>
                 </div>
                 <%# button controls for carousel %>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls<%= project.id.to_s %>" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark<%= project.id.to_s %>" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls<%= project.id.to_s %>" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark<%= project.id.to_s %>" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>

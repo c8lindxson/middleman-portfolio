@@ -4,23 +4,24 @@
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
 
 .card-product {
   overflow: hidden;
-  height: 300px;
   background: #fcf4e7;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex;
+  display: block;
   align-items: center;
+  border-radius: 5px;
 }
 
 .card-product img {
-  height: 100%;
-  width: 300px;
-  object-fit: contain;
+  padding: 4px;
+  max-height: 300px;
+  max-width: 400px;
+  object-fit: fill;
 }
 
 .card-product h2 {
