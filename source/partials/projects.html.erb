@@ -37,9 +37,14 @@
                 <div class="card-product-infos w-100">
                   <div class="d-flex justify-content-between align-items-center">
                     <h2><%= project.name %></h2>
-                    <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                      <i class="fas fa-external-link-alt"></i>
-                    <% end %>
+                    <div>
+                      <% link_to project.github, class: 'external-link', target: '_blank' do %>
+                        <i class="fa-solid fa-gear" ></i>
+                      <% end %>
+                      <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                        <i class="fas fa-external-link-alt"></i>
+                      <% end %>
+                    </div>
                   </div>
                   <p><%= project.description %></p>
                 </div>
