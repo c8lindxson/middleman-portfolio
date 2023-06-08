@@ -1,3 +1,12 @@
+# My Portfolio
+
+
+
+
+
+
+
+
 # Middleman Template
 A simple way to build static pages with a Rails feel.
 
