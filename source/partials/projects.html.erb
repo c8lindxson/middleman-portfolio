@@ -6,7 +6,30 @@
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
-              <%= image_tag project.image, alt: "project image" %>
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <%= image_tag project.image1, alt: "project image", class: "img-fluid" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag project.image2, alt: "project image", class: "img-fluid" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag project.image3, alt: "project image", class: "img-fluid" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag project.image4, alt: "project image", class: "img-fluid" %>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
               <div class="card-product-infos w-100">
                 <div class="d-flex justify-content-between align-items-center">
                   <h2><%= project.name %></h2>
