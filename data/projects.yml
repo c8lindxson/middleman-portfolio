@@ -1,0 +1,9 @@
+- name: Verifi Social
+  description: Check uploaded photos for risk of removal from Instagram. Users can see photo stats, blur the photo, and break down a photo into a grid to find exactly what causes removal risks.
+  image:
+  url: https://www.google.com
+
+- name: Luxifi
+  description: Market place for renting designer brand items. Users can add items to be listed and request items they would like to rent.
+  image: projects/luxifi-my-closet-page.png
+  url: https://www.google.com
