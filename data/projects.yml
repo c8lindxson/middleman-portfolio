@@ -8,7 +8,6 @@
   url: https://verifi-social.herokuapp.com/
   github: https://github.com/c8lindxson/verifi.social
 
-
 - name: Luxifi
   id: 2
   description: Market place for renting designer brand items. Users can add items to be listed and request items they would like to rent. Website is no longer live (or will not be available for much longer), but please feel free to look at the code on github and available photos.
@@ -18,3 +17,13 @@
   image4: projects/luxifi-reserve-item.png
   url: https://luxifi.herokuapp.com/
   github: https://github.com/c8lindxson/luxifi
+
+- name: Dog Age
+  id: 3
+  description: Convert your human age to dog years.
+  image1: projects/dog-age-open.png
+  image2: projects/dog-age-15.png
+  image3: projects/dog-age-50.png
+  image4: projects/dog-age-88.png
+  url: https://dog-age.netlify.app/
+  github: https://github.com/c8lindxson/middle-dog-age
