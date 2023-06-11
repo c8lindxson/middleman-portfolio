@@ -27,3 +27,13 @@
   image4: projects/dog-age-88.png
   url: https://dog-age.netlify.app/
   github: https://github.com/c8lindxson/middle-dog-age
+
+- name: Patisserie Park
+  id: 4
+  description: Solo project- IN PROGRESS. A redesign of my favorite local bakery's website.
+  image1: projects/park-banner.png
+  image2: projects/park-cafe.png
+  image3: projects/park-gifts.png
+  image4: projects/park-gifts-2.png
+  url: -
+  github: https://github.com/c8lindxson/patisserie
