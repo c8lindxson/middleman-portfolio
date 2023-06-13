@@ -37,3 +37,14 @@
   image4: projects/park-mobile-2.png
   url: https://patisserie-park.netlify.app/
   github: https://github.com/c8lindxson/patisserie
+
+
+- name: Giphy React Workshop
+  id: 5
+  description: Workshop project- React app for searching gifs using giphy-API.
+  image1: projects/giphy-initial-load.png
+  image2: projects/giphy-pup.png
+  image3: projects/giphy-puppy.png
+  image4: projects/giphy-puppy-selected.png
+  url: https://giphy-react-workshop.netlify.app/
+  github: https://github.com/c8lindxson/react-giphy
