@@ -42,21 +42,19 @@
 
 .card-product .card-product-infos {
   padding: 16px;
-  &:hover {
-    .external-link {
-      opacity: 1;
-    }
-  }
+}
+
+#description {
+
 }
 
 .external-link {
   margin-left: 8px;
-  opacity: 0;
   color: $gray;
-  transition: opacity 1s;
+  opacity: 1;
   &:hover {
     cursor: pointer;
-    color: $gray
+    color: #b88123
   }
 }
 
@@ -86,7 +84,7 @@
     grid-template-columns: 1fr;
   }
   .external-link {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -95,12 +93,18 @@
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+  .external-link {
+    opacity: 1;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+  }
+  .external-link {
+    opacity: 1;
   }
 }
 

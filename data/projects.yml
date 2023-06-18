@@ -1,6 +1,6 @@
 - name: Verifi Social
   id: 1
-  description: Group project- Check uploaded photos for risk of removal from Instagram. Users can see photo stats, blur the photo, and break down a photo into a grid to find exactly what causes removal risks. Website is no longer live (or will not be available for much longer), but please feel free to look at the code on github and available photos.
+  description: Analyze uploaded photos for risk of removal from Instagram. I developed features for users to view photo statistics, blur a portion of the photo, and break down a photo into a grid for detailed analysis. Website is no longer live (or will not be available for much longer), but please feel free to look at the code on github and available photos.
   image1: projects/verifi-my-collection.png
   image2: projects/verifi-details-graph.png
   image3: projects/verifi-details-grid.png
@@ -10,7 +10,7 @@
 
 - name: Luxifi
   id: 2
-  description: Group project- Market place for renting designer brand items. Users can add items to be listed and request items they would like to rent. Website is no longer live (or will not be available for much longer), but please feel free to look at the code on github and available photos.
+  description: Market place for renting designer brand items. Users can add items to be listed and request items they would like to rent. Website is no longer live (or will not be available for much longer), but please feel free to look at the code on github and available photos.
   image1: projects/luxifi-new-in-page.png
   image2: projects/luxifi-my-closet-page.png
   image3: projects/luxifi-new-item.png
@@ -20,7 +20,7 @@
 
 - name: Dog Age
   id: 3
-  description: Solo project- Convert your human age to dog years.
+  description: Convert your human age to dog years.
   image1: projects/dog-age-open.png
   image2: projects/dog-age-15.png
   image3: projects/dog-age-50.png
@@ -30,7 +30,7 @@
 
 - name: Patisserie Park
   id: 4
-  description: Solo project- A redesign of my favorite local bakery's website.
+  description: A redesign of my favorite local bakery's website.
   image1: projects/park-banner.png
   image2: projects/park-cafe.png
   image3: projects/park-banner-mobile.png
@@ -41,7 +41,7 @@
 
 - name: Giphy React Workshop
   id: 5
-  description: Workshop project- React app for searching gifs using giphy-API.
+  description: React app for searching gifs using giphy-API.
   image1: projects/giphy-initial-load.png
   image2: projects/giphy-pup.png
   image3: projects/giphy-puppy.png

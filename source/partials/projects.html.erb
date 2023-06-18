@@ -39,14 +39,16 @@
                     <h2><%= project.name %></h2>
                     <div>
                       <% link_to project.github, class: 'external-link', target: '_blank' do %>
-                        <i class="fa-solid fa-gear" ></i>
+                        <i class="fa-brands fa-github"></i>
                       <% end %>
                       <% link_to project.url, class: 'external-link', target: '_blank' do %>
                         <i class="fas fa-external-link-alt"></i>
                       <% end %>
                     </div>
                   </div>
-                  <p><%= project.description %></p>
+                  <div>
+                    <p id="description"><%= project.description %></p>
+                  </div>
                 </div>
               </div>
             </div>
